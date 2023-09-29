@@ -226,6 +226,7 @@ function onloadfunction() {
     importPlayer(); // beta CR
     remove('.erc-modal-portal > .overlay > .content-wrapper', 'Free Trial Modal', true, () => (document.body.classList = []));
     remove('.erc-watch-premium-upsell', 'Premium Sidebar', true);
+	remove('.erc-watch-premium-dub-upsell', 'Premium Dub Sidebar', true);
     registerChangeEpisode();
 }
 
@@ -237,7 +238,8 @@ function registerChangeEpisode() {
         if (currentURL !== window.location.href) {
             currentURL = window.location.href;
             if (currentURL.includes('/watch/')) {
-                remove('.erc-watch-premium-upsell', 'New Premium Sidebar', true);
+                remove('.erc-watch-premium-upsell', 'Premium Sidebar', true);
+				remove('.erc-watch-premium-dub-upsell', 'Premium Dub Sidebar', true);
                 const HTML = await fetch(currentURL);
                 console.log('[CR Beta] Searching for new INITIAL_STATE');
                 preservedState = JSON.parse(pegaString(HTML, '__INITIAL_STATE__ = ', ';'));
