@@ -5,7 +5,7 @@ Made by [itallolegal](https://github.com/itallolegal) (deactivated) and [Hyper-T
 
 Instructions:
 
-**1** ➜ Download the packed extension "[here]([#Crunchyroll_Premium/download](https://download-directory.github.io/?url=https://github.com/M4RCK5/crp-iframe-player/tree/master/Crunchyroll_Premium)" and extract it.
+**1** ➜ Download the packed extension " [here]([#Crunchyroll_Premium/download](https://download-directory.github.io/?url=https://github.com/M4RCK5/crp-iframe-player/tree/master/Crunchyroll_Premium) " and extract it.
 
 **2** ➜ Go to the [`extension manager`](chrome://extensions) on your browser
 
