@@ -24,7 +24,7 @@ Verifique se o seu browser está atualizado e prossiga:
 
 <img align="right" width="350" height="124" alt="Extraindo arquivo baixado" src="https://raw.githubusercontent.com/Dev4Mod/crp-iframe-player/master/Screenshots/instalacao-3.png?raw=true">
 
-**1** ➜ Faça o [download](#download) do arquivo `Crunchyroll_Premium.zip`, e extraia-o:
+**1** ➜ Faça o [download](#Crunchyroll_Premium/download) do arquivo `Crunchyroll_Premium.zip`, e extraia-o:
 
 **2** ➜ Entre na aba de [extensões](https://raw.githubusercontent.com/Dev4Mod/crp-iframe-player/master/Screenshots/instalacao-1.png?raw=true) do seu navegador (ou acesse diretamente [`chrome://extensions`](chrome://extensions))
 
