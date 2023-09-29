@@ -11,8 +11,6 @@ Instructions:
 
 **3** ➜ Enable **Developer Mode** and press the **Load Unpacked** button:
 
-![Habilitando modo programador, e carregando extensão](https://raw.githubusercontent.com/Dev4Mod/crp-iframe-player/master/Screenshots/instalacao-2.png?raw=true)
-
 **4** ➜ Select the folder that you previously extracted.
 
 **5** ➜ If you followed every step correctly the extension should appear.
