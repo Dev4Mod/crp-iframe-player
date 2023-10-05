@@ -71,7 +71,13 @@ function importPlayer(ready = false) {
     // var ep_id = preservedState.watch.id;
     // var ep = preservedState.content.media.byId[ep_id];
     var lang = location.href.match(/\/(.*?)\/watch/)[1].split('-');
-    var ep_lang = lang[0] + lang[1].toUpperCase();
+   var ep_lang = "";
+if (lang && lang.length >= 2) {
+    ep_lang = lang[0] + lang[1].toUpperCase();
+} else {
+    // Handle the case where lang is not defined or doesn't have enough elements.
+    // You might want to provide a default value or an error message.
+}
     var ep_id = location.href.match(/watch\/(.*?)\//)[1];
 
     var episode = document.querySelector('.erc-current-media-info > h1')?.textContent;
